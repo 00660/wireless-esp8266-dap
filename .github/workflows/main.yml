@@ -8,7 +8,7 @@ on:
       paths-ignore:
       - '**.md'
       - 'circuit'
-
+    workflow_dispatch:      # <--- 加上这一行，救命的按钮
 # env:
 #   UPLOAD_USER_FIRMWARE: false
 
